@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Delicious Restaurant</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="hero">
+            <h2>Welcome to Delicious Restaurant</h2>
+            <p>Your favorite place to enjoy delicious food</p>
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="media/64.png" alt="Food Item 1">
+                <h3>Food Item 1</h3>
+                <p>Description of food item 1</p>
+                <p class="price">$20.00</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="media/1.png" alt="Food Item 2">
+                <h3>Food Item 2</h3>
+                <p>Description of food item 2</p>
+                <p class="price">$15.00</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+    </section>
+
+    <section id="order">
+        <h2>Order Now</h2>
+        <form id="order-form">
+            <div class="order-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="food-item">Food Item:</label>
+            <select id="food-item" name="food-item" required>
+                <option value="Food Item 1">Food Item 1</option>
+                <option value="Food Item 2">Food Item 2</option>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+            <button type="submit">Submit Order</button>
+        </form>
+    </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@deliciousrestaurant.com</p>
+        <p>Phone: +233509419901</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delicious Restaurant</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
